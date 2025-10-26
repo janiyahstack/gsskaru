@@ -1,0 +1,188 @@
+body {
+  margin: 0;
+  font-family: "Segoe UI", sans-serif;
+  background-color: #fff;
+  color: #222;
+}
+
+/* Navbar styles */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff; /* white*/
+  padding: 10px 20px;
+  color: black;
+}
+
+.nav-left {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.nav-logo {
+  width: 50px;
+  height: auto;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.school-name {
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.nav-right a {
+  text-decoration: none;
+  color: black;
+  margin-left: 20px;
+  transition: color 0.3s;
+}
+
+.nav-right a:hover {
+  color: #cce0ff; /* lighter blue on hover */
+}
+
+.contact-btn {
+  background-color: #0000;
+  color: #003366;
+  padding: 6px 12px;
+  border-radius: 6px;
+  font-weight: bold;
+}
+
+.contact-btn:hover {
+  background-color: #0000;
+}
+
+/* Hero Section */
+.background-img {
+    background-image: https://i.postimg.cc/B663NDdL/cover.png; /* your image file name */
+      background-size: cover; /* makes it fill the page */
+      background-position: center;
+      height: 100vh; /* vh = viewport height */
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      font-size: 2em;
+      text-shadow: 2px 2px 4px rgba(0,0,0,0.6);
+    }
+.background-img {
+  width: 100%;
+  height: 70vh;
+  object-fit: cover;
+  filter: brightness(70%);
+}
+
+.hero-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.hero-overlay h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+.hero-overlay p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+  color: #f0f8ff;
+}
+
+.btn {
+  background-color: #003366;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+.btn:hover {
+  background-color: #0055aa;
+}
+
+/* About Section */
+.about {
+  padding: 60px 20px;
+  text-align: center;
+  background-color: #f0f8ff;
+}
+
+.about h2 {
+  color: #003366;
+  margin-bottom: 20px;
+}
+
+/* Staff Section */
+.staff {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.staff h2 {
+  color: #003366;
+  margin-bottom: 30px;
+}
+
+.staff-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+  justify-items: center;
+  padding: 0 20px;
+}
+
+.staff-card {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 0 8px rgba(0,0,0,0.1);
+  padding: 20px;
+  width: 220px;
+}
+
+.staff-card img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.staff-card h3 {
+  color: #003366;
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+}
+
+.staff-card input {
+  width: 100%;
+  font-size: 0.9rem;
+}
+
+/* Contact Section */
+.contact {
+  background-color: #f0f8ff;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.contact h2 {
+  color: #003366;
+  margin-bottom: 15px;
+}
+
+/* Footer */
+.footer {
+  background-color: #003366;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  font-size: 0.9rem;
+}

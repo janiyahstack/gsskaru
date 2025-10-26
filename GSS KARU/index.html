@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>gsskaru.com</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <nav class="navbar">
+  <div class="nav-left">
+    <a href="#">
+      <img src="https://i.postimg.cc/C1xgxD7D/GSS-Karu-logo-removebg-preview.png" alt="GSS Karu Logo" class="nav-logo">
+    </a>
+    <span class="school-name">GSS Karu</span>
+  </div>
+  <div class="nav-right">
+    <a href="#about">About</a>
+    <a href="#staff">Staff</a>
+    <a href="#contact" class="contact-btn">Contact Us</a>
+  </div>
+</nav>
+  <!-- Hero Section -->
+  <section id="home" class="background">
+    <img src="https://i.postimg.cc/B663NDdL/cover.png" alt="School Image" class="background-img">
+    <div class="hero-overlay">
+      <h1>Government Secondary School Karu</h1>
+      <p><em>Learning, Unity, and Progress</em></p>
+      <a href="#about" class="btn">Learn More</a>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about">
+    <h2>About Us</h2>
+    <p>
+      Government Secondary School Karu (GSS Karu) is a public institution dedicated to excellence in academics, discipline, and service.  
+      Our mission is to build leaders grounded in knowledge, unity, and progress.
+    </p>
+  </section>
+
+  <!-- Staff Section -->
+  <section id="staff" class="staff">
+    <h2>Our Staff</h2>
+    <div class="staff-grid">
+      <div class="staff-card">
+        <img id="principal-photo" src="https://via.placeholder.com/150" alt="Principal">
+        <h3>Principal</h3>
+        <input type="file" accept="image/*" onchange="previewImage(event, 'principal-photo')">
+      </div>
+      <div class="staff-card">
+        <img id="vp-photo" src="https://via.placeholder.com/150" alt="Vice Principal">
+        <h3>Vice Principal Academics</h3>
+        <input type="file" accept="image/*" onchange="previewImage(event, 'vp-photo')">
+      </div>
+      <div class="staff-card">
+        <img id="admin-photo" src="https://via.placeholder.com/150" alt="Admin Officer">
+        <h3>Vice Principal Admin</h3>
+        <input type="file" accept="image/*" onchange="previewImage(event, 'admin-photo')">
+      </div>
+      <div class="staff-card">
+        <img id="academic-photo" src="https://via.placeholder.com/150" alt="Academic Staff">
+        <h3>Senior master</h3>
+        <input type="file" accept="image/*" onchange="previewImage(event, 'academic-photo')">
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <h2>Contact Us</h2>
+    <p>📍 Karu, Abuja, Nigeria</p>
+    <p>📞 +234 000 000 0000</p>
+    <p>📧 info@gsskaru.sch.ng</p>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>&copy; <span id="year"></span> Government Secondary School Karu. All Rights Reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
